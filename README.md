@@ -8,6 +8,13 @@ a lot of googling and trial and error. If you find something that you'd want to
 change, please make an [issue](https://github.com/roosta/Marlin/issues/new) or
 [pull request](https://github.com/roosta/Marlin/pulls).
 
+## What makes this different from Marlin?
+
+Just the configuration. It's tweaked towards the Duplicator i3 3d printer,
+otherwise I try to keep this in sync with [upstream
+Marlin](https://github.com/MarlinFirmware/Marlin). You can look at the [commit
+log](https://github.com/MarlinFirmware/Marlin/compare/1.1.x...roosta:1.1.x) to see what I've changed.
+
 ## Burning a bootloader
 To be able to flash this firmware a bootloader needs to be burned to your Melzi
 card inside the 3d printer, I used an [Arduino
